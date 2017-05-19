@@ -73,7 +73,7 @@ class Parking():
 		text = gtk.Label(st)
 		win.set_title("Ayuda")
 		win.set_resizable(False)
-		link = gtk.LinkButton("https://github.com/DVRodri8", "Mi GitHub")
+		link = gtk.LinkButton("https://github.com/DVRodri8/Game-Desbloqueame", "Mi GitHub")
 		box = gtk.VBox()
 		box.pack_start(text, False, False, 0)
 		box.pack_start(link, False, False, 0)
